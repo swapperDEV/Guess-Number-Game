@@ -1,0 +1,13 @@
+.lightmode {
+  background-color: #d2d3db;
+}
+
+.lightmode .app {
+  background-color: #fafafa;
+  color: #161722;
+}
+
+.lightmode .app .top {
+  color: white;
+}
+/*# sourceMappingURL=lightmode.css.map */

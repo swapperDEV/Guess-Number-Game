@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,OAAO;CAAG;;AAChC,AAAA,UAAU,CAAC,IAAI,CAAC;EACZ,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,OAAO;CAAG;;AACrB,AAAA,UAAU,CAAC,IAAI,CAAC,IAAI,CAAC;EACjB,KAAK,EAAE,KAAK;CAAG",
+    "sources": [
+        "lightmode.sass"
+    ],
+    "names": [],
+    "file": "lightmode.css"
+}

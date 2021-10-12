@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <script src="https://kit.fontawesome.com/71ecc900fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="./sass/darkmode.css">
+    <link rel="stylesheet" href="./sass/lightmode.css">
+    <link rel="stylesheet" href="./sass/media.css">
+</head>
+<body class='lightmode xs'>
+    <div class='app'>
+        <div class='top'>
+            <h3> Guess the <br/>Number</h3>
+            <div class='switchmode'><i class="fas fa-moon changemode"></i></div>
+        </div>
+        <div class='bottom'>
+            <div class='levels'>
+                <button class='actlevel nlevel fxb ea'>Easy</button>
+                <button class='nlevel fxb me'>Medium</button>
+                <button class='nlevel fxb ha'>Hard</button>
+            </div>
+            <div class='input'>
+                <div>
+                    Guess the number from 0 to <b class='max'>100</b>
+                </div>
+                <div class='inp'>
+                    <input class='answer' placeholder="input number"/><button class='check'>Check</button>
+                </div>
+            </div>
+            <div class='weak'>
+                <p class='return'></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/game.js"></script>
+    <script src="scripts/changemode.js"></script>
+</body>
+</html>

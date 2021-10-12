@@ -1,0 +1,25 @@
+.darkmode {
+  background-color: #161722;
+}
+
+.darkmode .app {
+  background-color: #484b6a;
+  color: #e4e5f1;
+}
+
+.darkmode .app .top {
+  color: black;
+}
+
+.darkmode .app .bottom button {
+  color: #161722;
+}
+
+.darkmode .input {
+  color: #161722;
+}
+
+.darkmode .answer {
+  background-color: #161722 !important;
+}
+/*# sourceMappingURL=darkmode.css.map */
